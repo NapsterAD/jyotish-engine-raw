@@ -499,3 +499,97 @@ def format_bav_matrix(bav):
     lines.append(line)
 
     return "\n".join(lines)
+
+
+# ═══════════════════════════════════════════
+# CS PATEL ASHTAKAVARGA ADVANCED ALGORITHMS
+# ═══════════════════════════════════════════
+# Source: CS Patel's "Ashtakavarga" & "Practical Ashtakavarga"
+
+from ..core.constants import NAKSHATRAS
+
+
+def calc_patel_sensitive_points(bav, sodhya_pindas, positions):
+    """
+    Calculate CS Patel's classical Ashtakavarga sensitive degrees/nakshatras.
+    Formula: (Sodhya Pinda of Planet * Bindus in Hth from Planet) % 27
+    Resulting nakshatra and its trines (1, 10, 19) become sensitive points for transits.
+    
+    Returns:
+        dict with sensitive nakshatras and rasis for father, mother, siblings, children, spouse, longevity.
+    """
+    results = {}
+    
+    relations = [
+        ("Father", "Sun", 9, "Saturn/Rahu transit brings distress/event to father"),
+        ("Mother", "Moon", 4, "Saturn/Mars transit brings distress/event to mother"),
+        ("Siblings", "Mars", 3, "Saturn transit brings events to brothers/sisters"),
+        ("Progeny", "Jupiter", 5, "Jupiter transit triggers childbirth; Saturn transit brings events"),
+        ("Spouse", "Venus", 7, "Jupiter transit triggers marriage; Saturn brings testing"),
+        ("Longevity", "Saturn", 8, "Saturn/Jupiter transit indicates critical life transitions"),
+    ]
+    
+    for rel_name, planet, offset_house, effect in relations:
+        p_pos = positions.get(planet, {})
+        if not isinstance(p_pos, dict) or "sign_index" not in p_pos:
+            continue
+        
+        p_sign_idx = p_pos["sign_index"]
+        target_sign_idx = (p_sign_idx + offset_house - 1) % 12
+        
+        planet_bav = bav.get(planet, [0]*12)
+        bindus_in_target = planet_bav[target_sign_idx]
+        
+        pinda_info = sodhya_pindas.get(planet, {})
+        sodhya_val = pinda_info.get("sodhya", 0)
+        
+        product = sodhya_val * bindus_in_target
+        nak_num = (product % 27) or 27  # 1 to 27
+        rasi_num = (product % 12) or 12 # 1 to 12
+        
+        nak_name = NAKSHATRAS[nak_num - 1]["name"] if nak_num <= 27 else "Unknown"
+        rasi_name = SIGNS[rasi_num - 1]
+        
+        # Trinal nakshatras (Nakshatras at distance 9 and 18)
+        trine1_num = ((nak_num - 1 + 9) % 27) + 1
+        trine2_num = ((nak_num - 1 + 18) % 27) + 1
+        trine_naks = [
+            nak_name,
+            NAKSHATRAS[trine1_num - 1]["name"],
+            NAKSHATRAS[trine2_num - 1]["name"]
+        ]
+        
+        results[rel_name] = {
+            "planet": planet,
+            "karaka_house": offset_house,
+            "bindus_in_house": bindus_in_target,
+            "sodhya_pinda": sodhya_val,
+            "product": product,
+            "sensitive_nakshatra": nak_name,
+            "sensitive_nakshatra_num": nak_num,
+            "trinal_nakshatras": trine_naks,
+            "sensitive_rasi": rasi_name,
+            "sensitive_rasi_num": rasi_num,
+            "classical_significance": effect,
+        }
+        
+    return results
+
+
+def get_bav_transit_quality(planet, bindu_count):
+    """
+    CS Patel standard interpretation for transit over a house containing N bindus in BAV.
+    """
+    scale = {
+        8: ("EXCELLENT", "Highest royal/official favor, supreme success, acquisition of great wealth"),
+        7: ("VERY_GOOD", "Success through enterprise, happiness, fine gains, respect"),
+        6: ("GOOD", "Acquisition of wealth, fame, support from virtuous associates"),
+        5: ("FAVORABLE", "Moderate gains, steady progress, general happiness"),
+        4: ("NEUTRAL", "Mixed results, status quo, expenditure matches income"),
+        3: ("UNFAVORABLE", "Fatigue, delays, friction with friends, financial pressure"),
+        2: ("BAD", "Loss of money, anxiety, opposition from rivals, health stress"),
+        1: ("VERY_BAD", "Severe difficulties, distress, unexpected setbacks"),
+        0: ("EXTREME_CAUTION", "Critical obstacle, acute distress, vulnerability — avoid key beginnings"),
+    }
+    return scale.get(bindu_count, ("NEUTRAL", "Status quo"))
+

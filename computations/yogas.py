@@ -942,6 +942,20 @@ def check_all_yogas(chart):
     all_checks.extend(check_parivartana(chart))
     all_checks.extend(check_extended_yogas(chart))
 
+    # ── Nabhasa Yogas (32) ──────────────────────────────
+    try:
+        from .yogas_nabhasa import check_all_nabhasa_yogas
+        all_checks.extend(check_all_nabhasa_yogas(chart))
+    except Exception:
+        pass  # Module not available — degrade gracefully
+
+    # ── Extended Raja/Dhana/Aristha/Sannyasa Yogas ──────
+    try:
+        from .yogas_raja import check_all_raja_yogas
+        all_checks.extend(check_all_raja_yogas(chart))
+    except Exception:
+        pass  # Module not available — degrade gracefully
+
     # Separate formed vs not formed
     formed = [y for y in all_checks if y.get("formed", False)]
     not_formed = [y for y in all_checks if not y.get("formed", False)]

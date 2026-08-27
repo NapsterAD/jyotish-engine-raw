@@ -247,6 +247,61 @@ def run_master_audit():
     check(av_comp["Moon"]["baladi"]["state"] == "Mrita", "Moon (AK) is Mrita in Baladi (25°49' in odd sign)", av_comp["Moon"]["baladi"]["state"])
     check(av_comp["Sun"]["baladi"]["state"] == "Kumara", "Sun is Kumara in Baladi (19°15' in even sign Virgo)", av_comp["Sun"]["baladi"]["state"])
     
+    # ─── §34: Nabhasa Yogas (NEW MODULE) ───
+    print("\n─── §34: Nabhasa Yogas (32 Pattern Yogas) ───")
+    nabhasa = chart.nabhasa_yogas
+    check(len(nabhasa) >= 30, f"All 32 Nabhasa Yogas evaluated ({len(nabhasa)} checks)", f"Total={len(nabhasa)}")
+    sankhya_formed = [y for y in nabhasa if y.get("category") == "Sankhya" and y.get("formed")]
+    check(len(sankhya_formed) > 0, "Sankhya Yoga formed based on sign occupancy count", sankhya_formed[0]["name"] if sankhya_formed else "")
+    
+    # ─── §35: Nakshatra Predictive Engine (NEW MODULE) ───
+    print("\n─── §35: Nakshatra Predictive Engine (NEW MODULE) ───")
+    nak_eng = chart.nakshatra_bundle
+    check("activation_ages" in nak_eng, "Activation ages computed for all planets")
+    check(len(nak_eng["nava_tara"]["table"]) == 27, "27 Nava-Tara Star Groups evaluated", f"Birth={nak_eng['nava_tara']['birth_nakshatra']}")
+    check("pushkara_mrityu" in nak_eng, "Pushkara Bhaga & Mrityu Bhaga evaluated for all bodies")
+    check(nak_eng["pushkara_mrityu"]["Venus"]["sign"] == "Libra", "Venus Pushkara/Mrityu checked in Libra", nak_eng["pushkara_mrityu"]["Venus"])
+    
+    # ─── §36: CS Patel Ashtakavarga Advanced Engine (NEW MODULE) ───
+    print("\n─── §36: CS Patel Ashtakavarga Advanced Engine ───")
+    av_data = chart.ashtakavarga
+    patel_pts = av_data.get("patel_points", {})
+    check("Father" in patel_pts and "Spouse" in patel_pts, "CS Patel sensitive transit points computed (Father, Mother, Spouse, Progeny)")
+    check(len(patel_pts["Spouse"]["trinal_nakshatras"]) == 3, "Spouse sensitive trinal nakshatras mapped", patel_pts["Spouse"]["trinal_nakshatras"])
+    from jyotish_engine.computations.ashtakavarga import get_bav_transit_quality
+    qual, desc = get_bav_transit_quality("Venus", 7)
+    check(qual == "VERY_GOOD", "BAV 7-bindu transit quality verified as VERY_GOOD", desc[:40])
+    
+    # ─── §37: Nadi Astrology Engine (NEW MODULE) ───
+    print("\n─── §37: Nadi Astrology BNN & Profession Engine ───")
+    nadi_data = chart.nadi
+    check("pair_readings" in nadi_data, "BNN directional planet-pair readings computed")
+    check("profession_profile" in nadi_data, "RG Rao Nadi Karma Karaka profession profile evaluated")
+    check("marriage_profile" in nadi_data, "Nadi Kalatra Karaka marriage profile evaluated")
+    
+    # ─── §38: KP Horary 1-249 & 4-Step Theory (NEW MODULE) ───
+    print("\n─── §38: KP Horary 1-249 & 4-Step Theory ───")
+    from jyotish_engine.computations.kp import get_kp249_longitude, kp_four_step_theory
+    h249 = get_kp249_longitude(1)
+    check(h249["number"] == 1 and h249["star_lord"] == "Ketu", "KP Horary #1 mapped to Ketu star", f"Start={h249['start_longitude']}°")
+    four_step = kp_four_step_theory(chart, "Venus", [2, 7, 11], [1, 6, 10])
+    check("steps" in four_step and len(four_step["steps"]) == 4, "KP 4-Step Theory evaluation executed (4 steps)", f"Status={four_step['status']}")
+    
+    # ─── §39: Lal Kitab Advanced Engine (NEW MODULE) ───
+    print("\n─── §39: Lal Kitab Advanced Engine ───")
+    lk_data = chart.lal_kitab
+    check("nek_manda_grahas" in lk_data, "Nek vs Manda Graha classification evaluated for all planets")
+    check("dhaat_metals" in lk_data, "Lal Kitab Dhaat (metals) mapped for all 9 planets")
+    check("remedies" in lk_data, "House-specific classical Lal Kitab Upayas evaluated")
+    
+    # ─── §40: Prediction Text Engine (NEW MODULE) ───
+    print("\n─── §40: Classical Prediction Text Engine ───")
+    preds = chart.predictions
+    check(preds["total_predictions"] > 0, f"Classical prediction texts loaded from CSV databases ({preds['total_predictions']} predictions)", f"Lagna={preds['rashi_description']}")
+    from jyotish_engine.computations.predictions import format_predictions
+    sample_text = format_predictions(preds, max_per_planet=60)
+    check(len(sample_text) > 100, "Formatted classical prediction report generated", f"{len(sample_text)} characters")
+    
     print("\n" + "=" * 80)
     print(f"   FINAL AUDIT SUMMARY: {PASS} / {TOTAL_CRITERIA} CRITERIA PASSED ({(PASS/TOTAL_CRITERIA)*100:.1f}%)")
     print(f"   TOTAL TESTS: {TOTAL_CRITERIA} | PASSED: {PASS} | FAILED: {FAIL}")

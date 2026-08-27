@@ -128,6 +128,10 @@ class BirthChart:
         self._career = None
         self._wealth = None
         self._medical = None
+        self._nakshatra_bundle = None
+        self._predictions = None
+        self._nabhasa_yogas = None
+        self._raja_yogas_ext = None
 
     # ═══════════════════════════════════════════
     # LAZY PROPERTIES — Computation Modules
@@ -182,17 +186,19 @@ class BirthChart:
         if self._ashtakavarga is None:
             from ..computations.ashtakavarga import (
                 calc_bav, calc_sav, calc_row_totals, calc_sodhya_pinda, calc_sav_by_house,
-                check_sav_patterns,
+                check_sav_patterns, calc_patel_sensitive_points,
             )
             bav = calc_bav(self.positions)
             sav = calc_sav(bav)
+            sodhya = calc_sodhya_pinda(bav, self.positions)
             self._ashtakavarga = {
                 "bav": bav,
                 "sav": sav,
                 "row_totals": calc_row_totals(bav),
                 "patterns": check_sav_patterns(sav, self.lagna_index),
-                "sodhya": calc_sodhya_pinda(bav, self.positions),
+                "sodhya": sodhya,
                 "by_house": calc_sav_by_house(bav, self.lagna_index),
+                "patel_points": calc_patel_sensitive_points(bav, sodhya, self.positions),
             }
         return self._ashtakavarga
 
@@ -464,11 +470,43 @@ class BirthChart:
 
     @property
     def yogas(self):
-        """All yoga checks. Computed on first access."""
+        """All yoga checks (core + nabhasa + raja/dhana/aristha). Computed on first access."""
         if self._yogas is None:
             from ..computations.yogas import check_all_yogas
             self._yogas = check_all_yogas(self)
         return self._yogas
+
+    @property
+    def nabhasa_yogas(self):
+        """32 Nabhasa Yogas (Ashraya, Dala, Akriti, Sankhya). Computed on first access."""
+        if self._nabhasa_yogas is None:
+            from ..computations.yogas_nabhasa import check_all_nabhasa_yogas
+            self._nabhasa_yogas = check_all_nabhasa_yogas(self)
+        return self._nabhasa_yogas
+
+    @property
+    def raja_yogas_extended(self):
+        """Extended Raja/Dhana/Aristha/Sannyasa yogas. Computed on first access."""
+        if self._raja_yogas_ext is None:
+            from ..computations.yogas_raja import check_all_raja_yogas
+            self._raja_yogas_ext = check_all_raja_yogas(self)
+        return self._raja_yogas_ext
+
+    @property
+    def nakshatra_bundle(self):
+        """Nakshatra predictive engine: activation ages, nava-tara, pushkara/mrityu, profiles."""
+        if self._nakshatra_bundle is None:
+            from ..computations.nakshatra_engine import calc_nakshatra_bundle
+            self._nakshatra_bundle = calc_nakshatra_bundle(self)
+        return self._nakshatra_bundle
+
+    @property
+    def predictions(self):
+        """Classical prediction texts from CSV databases. Computed on first access."""
+        if self._predictions is None:
+            from ..computations.predictions import calc_predictions
+            self._predictions = calc_predictions(self)
+        return self._predictions
 
     # ═══════════════════════════════════════════
     # Phase 3 — Transits + Tajika + Matching + Kakshya

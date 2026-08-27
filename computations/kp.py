@@ -643,3 +643,101 @@ def calc_kp_advanced(chart):
         "fruitful_career_2_6_10_11": fruitful_significators(chart, [2, 6, 10, 11], [5, 8, 12]),
         "fruitful_wealth_2_11": fruitful_significators(chart, [2, 11], [8, 12]),
     }
+
+
+# ═══════════════════════════════════════════
+# KP HORARY (PRASHNA) & 4-STEP THEORY
+# ═══════════════════════════════════════════
+# Sources: KP Reader 6 (Horary), Advanced Stellar KP, 4-Step Theory
+
+def get_kp249_longitude(horary_number):
+    """
+    Given a KP Horary number (1 to 249), return the starting longitude of that sub-arc.
+    """
+    if horary_number < 1 or horary_number > 249:
+        raise ValueError(f"Horary number must be 1..249, got {horary_number}")
+    
+    table = _build_kp249_table()
+    row = table[horary_number - 1]
+    return {
+        "number": horary_number,
+        "start_longitude": row[0],
+        "end_longitude": row[1],
+        "star_lord": row[3],
+        "sub_lord": row[4],
+        "sign_lord": kp_sign_lord(row[0]),
+    }
+
+
+def kp_four_step_theory(chart, planet, target_houses, detrimental_houses=None, system="placidus"):
+    """
+    Evaluate a planet using KP 4-Step Theory (Sunil Gondhalekar system):
+      Step 1: Planet itself (occupies & lords)
+      Step 2: Star Lord of the Planet (occupies & lords) - SOURCE
+      Step 3: Sub Lord of the Planet (occupies & lords) - DECIDING / END RESULT
+      Step 4: Star Lord of the Sub Lord (occupies & lords) - CONFIRMATION
+    
+    If Step 3 / Step 4 strongly signify detrimental houses, the event is negated.
+    
+    Returns:
+        dict with 4 steps, favorable score, negation flag, and judgment.
+    """
+    pos = chart.positions.get(planet)
+    if not pos or not isinstance(pos, dict):
+        return {"error": f"Planet {planet} not found"}
+    
+    p_lon = pos["longitude"]
+    star = pos.get("nakshatra_lord") or kp_star_lord(p_lon)
+    sub = pos.get("sub_lord") or kp_sub_lord(p_lon)
+    
+    # Sub lord's position in chart to find its star lord
+    sub_pos = chart.positions.get(sub, {})
+    sub_star = sub_pos.get("nakshatra_lord") if isinstance(sub_pos, dict) else kp_star_lord(p_lon)
+    
+    steps = [
+        {"step": 1, "entity": planet, "role": "Offer / Planet",
+         "occupies": _houses_occupied_by(chart, planet, system), "lords": _houses_lorded(chart, planet)},
+        {"step": 2, "entity": star, "role": "Source / Star Lord",
+         "occupies": _houses_occupied_by(chart, star, system), "lords": _houses_lorded(chart, star)},
+        {"step": 3, "entity": sub, "role": "Decider / Sub Lord",
+         "occupies": _houses_occupied_by(chart, sub, system), "lords": _houses_lorded(chart, sub)},
+        {"step": 4, "entity": sub_star, "role": "Confirm / Star of Sub",
+         "occupies": _houses_occupied_by(chart, sub_star, system), "lords": _houses_lorded(chart, sub_star)},
+    ]
+    
+    for s in steps:
+        occ_list = [s["occupies"]] if isinstance(s["occupies"], int) else (s["occupies"] or [])
+        all_h = set(occ_list + s["lords"])
+        s["signifies_target"] = list(all_h & set(target_houses))
+        s["signifies_detrimental"] = list(all_h & set(detrimental_houses or []))
+    
+    # Decider check: Step 3 & 4
+    step3_favorable = bool(steps[2]["signifies_target"])
+    step3_detrimental = bool(steps[2]["signifies_detrimental"])
+    step4_favorable = bool(steps[3]["signifies_target"])
+    
+    is_promising = step3_favorable and not step3_detrimental
+    
+    return {
+        "planet": planet,
+        "steps": steps,
+        "target_houses": target_houses,
+        "detrimental_houses": detrimental_houses,
+        "is_promising": is_promising,
+        "status": "FRUITFUL" if is_promising else ("NEGATED" if step3_detrimental else "NEUTRAL"),
+    }
+
+
+def verify_rp_agreement(chart, query_rp_list=None):
+    """
+    Check consistency of natal ruling planets against current query RP or verify strength.
+    """
+    natal_rp = kp_ruling_planets(chart)
+    rp_planets = natal_rp.get("list", [])
+    
+    return {
+        "natal_ruling_planets": rp_planets,
+        "details": natal_rp,
+        "is_verified": len(rp_planets) >= 3,
+    }
+

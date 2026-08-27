@@ -49,6 +49,13 @@ Cross-check classical sources: *Brihat Parashara Hora Shastra*, *Jaimini Upadesh
 31. [Medical Astrology — Planet-Disease Mapping & Health Trigger Rules](#31-medical-astrology--planet-disease-mapping--health-trigger-rules)
 32. [Muhurtha Essentials — Electional Computation Rules](#32-muhurtha-essentials--electional-computation-rules)
 33. [Gandanta, Nakshatra Sandhi & Abhukta Moola — Computation Rules](#33-gandanta-nakshatra-sandhi--abhukta-moola--computation-rules)
+34. [Nabhasa Yoga Detection Algorithms (32 Classical Patterns)](#34-nabhasa-yoga-detection-algorithms-32-classical-patterns)
+35. [Nakshatra Predictive Engine & Activation Cycles](#35-nakshatra-predictive-engine--activation-cycles)
+36. [CS Patel Ashtakavarga Advanced Transit & Sensitive Points](#36-cs-patel-ashtakavarga-advanced-transit--sensitive-points)
+37. [Bhrigu Nandi Nadi (BNN) Directional Engine & Profession Mapping](#37-bhrigu-nandi-nadi-bnn-directional-engine--profession-mapping)
+38. [KP Horary (1-249) & 4-Step Event Determination](#38-kp-horary-1-249--4-step-event-determination)
+39. [Lal Kitab Advanced Engine (Nek/Manda, Metals & Upayas)](#39-lal-kitab-advanced-engine-nekmanda-metals--upayas)
+40. [Classical Prediction Text Database Integration](#40-classical-prediction-text-database-integration)
 
 ---
 
@@ -2512,3 +2519,125 @@ $$\text{is\_rashi\_sandhi}(\lambda) = (\lambda \pmod{30^\circ}) \le 1^\circ 00' 
 Planets in Rashi Sandhi lose positional strength and cannot deliver full results of either sign. This affects Pancha Mahapurusha Yoga detection (§9.1) and dignity assignment.
 
 **Source:** Sanjay Rath (*Brhat Nakshatra*), BPHS Ch. 93, Prasna Marga
+
+---
+
+## 34. Nabhasa Yoga Detection Algorithms (32 Classical Patterns)
+
+BPHS Ch. 22-24, Saravali Ch. 12-13, and BV Raman *300 Important Combinations*.
+
+### 34.1 Classification Architecture
+Nabhasa Yogas are 32 sky-pattern configurations formed by the 7 classical planets (Sun through Saturn):
+1. **Ashraya Yogas (3)**: Based on sign modality (Chara/Sthira/Dwisvabhava).
+   - *Rajju*: All 7 planets in Movable signs.
+   - *Musala*: All 7 planets in Fixed signs.
+   - *Nala*: All 7 planets in Dual signs.
+2. **Dala Yogas (2)**:
+   - *Maala (Srak)*: Benefics in Kendras (1, 4, 7, 10).
+   - *Sarpa*: Malefics in Kendras without benefics.
+3. **Akriti Yogas (20)**: Geometric shapes formed by planetary placements.
+   - *Gada* (2 adjacent kendras), *Shakata* (1H+7H), *Shringataka* (all trikonas), *Hala* (3 non-kendra houses), *Vajra* (benefics 1/7, malefics 4/10), *Yava* (benefics 4/10, malefics 1/7), *Kamala* (all 4 kendras filled), *Vapi* (panapharas or apoklimas only), *Yupa* (H1-H4), *Ishu* (H4-H7), *Shakti* (H7-H10), *Danda* (H10-H1), *Nauka* (H1-H7), *Kuta* (H4-H10), *Chhatra* (H7-H1), *Chapa* (H10-H4), *Ardha Chandra* (7 consecutive houses), *Chakra* (odd houses), *Samudra* (even houses).
+4. **Sankhya Yogas (7)**: Number of unique signs occupied by 7 planets.
+   - 1 sign = *Gola*, 2 signs = *Yuga*, 3 signs = *Shoola*, 4 signs = *Kedara*, 5 signs = *Paasha*, 6 signs = *Daama*, 7 signs = *Veena (Vallaki)*.
+
+---
+
+## 35. Nakshatra Predictive Engine & Activation Cycles
+
+Sources: Sanjay Rath (*Brhat Nakshatra*), Deepanshu Giri (*Predicting with Nakshatra Pada*), Sunil John.
+
+### 35.1 Vimshottari Activation Cycle
+$$\text{Base Activation Ages}(L) = \{ (i + 1) + 9k \mid k \in [0, 7] \}$$
+where $i$ is the index of the lord $L$ in the Vimshottari sequence (Ketu=0, Venus=1, Sun=2, Moon=3, Mars=4, Rahu=5, Jupiter=6, Saturn=7, Mercury=8).
+
+### 35.2 Pada-Modified Timing
+$$\text{Pada Age} = \text{Base Age} + (\text{Pada} - 1)$$
+
+### 35.3 Nava-Tara Matrix
+$$\text{Tara Index} = ((\text{Transit Nakshatra} - \text{Janma Nakshatra}) \pmod{9}) + 1$$
+Quality scale:
+- 1 (Janma - Mixed), 2 (Sampat - Excellent), 3 (Vipat - Obstacle), 4 (Kshema - Prosperity), 5 (Pratyari - Friction), 6 (Sadhaka - Achievement), 7 (Vadha - Critical Danger), 8 (Mitra - Friendly), 9 (Parama Mitra - Supreme Favor).
+
+### 35.4 Pushkara Bhaga & Mrityu Bhaga Degrees
+- **Pushkara Bhaga**: Auspicious degrees in signs (Aries: 21°, Taurus: 14°, Gemini: 18°, Cancer: 8°, Leo: 19°, Virgo: 9°, Libra: 24°, Scorpio: 11°, Sagittarius: 23°, Capricorn: 14°, Aquarius: 19°, Pisces: 9°).
+- **Mrityu Bhaga**: Specific affliction degrees per planet with $\pm 1^\circ$ orb.
+
+---
+
+## 36. CS Patel Ashtakavarga Advanced Transit & Sensitive Points
+
+Sources: C.S. Patel (*Ashtakavarga* & *Practical Ashtakavarga*).
+
+### 36.1 Sensitive Point Formula
+$$\text{Product} = \text{Sodhya Pinda}(\text{Karaka}) \times \text{Bindus in target house from Karaka}$$
+$$\text{Sensitive Nakshatra} = (\text{Product} \pmod{27}) \quad (\text{if } 0 \implies 27)$$
+$$\text{Sensitive Rasi} = (\text{Product} \pmod{12}) \quad (\text{if } 0 \implies 12)$$
+Trinal nakshatras: $\text{Nak}, (\text{Nak}+9)\pmod{27}, (\text{Nak}+18)\pmod{27}$.
+
+### 36.2 Karaka Mapping
+- **Father**: Sun Sodhya Pinda $\times$ Bindus in 9th from Sun.
+- **Mother**: Moon Sodhya Pinda $\times$ Bindus in 4th from Moon.
+- **Siblings**: Mars Sodhya Pinda $\times$ Bindus in 3rd from Mars.
+- **Progeny**: Jupiter Sodhya Pinda $\times$ Bindus in 5th from Jupiter.
+- **Spouse**: Venus Sodhya Pinda $\times$ Bindus in 7th from Venus.
+- **Longevity**: Saturn Sodhya Pinda $\times$ Bindus in 8th from Saturn.
+
+---
+
+## 37. Bhrigu Nandi Nadi (BNN) Directional Engine & Profession Mapping
+
+Sources: R.G. Rao (*Bhrigu Nandi Nadi*, *Core of Nadi Astrology*).
+
+### 37.1 Directional Elemental Triangle
+Planets in the same element/direction form full 100% directional conjunctions:
+- **East (Fire)**: Aries, Leo, Sagittarius ($1, 5, 9$)
+- **South (Earth)**: Taurus, Virgo, Capricorn ($2, 6, 10$)
+- **West (Air)**: Gemini, Libra, Aquarius ($3, 7, 11$)
+- **North (Water)**: Cancer, Scorpio, Pisces ($4, 8, 12$)
+
+### 37.2 Planetary Positional Weights
+- 1st, 5th, 9th from planet = $1.00$ (Trinal)
+- 7th from planet = $1.00$ (Direct aspect / Opposition)
+- 2nd from planet = $0.75$ (Front / Direction of travel)
+- 12th from planet = $0.50$ (Rear / Support)
+- 3rd, 11th from planet = $0.25$ (Supportive)
+
+---
+
+## 38. KP Horary (1-249) & 4-Step Event Determination
+
+Sources: K.S. Krishnamurti (*KP Reader 6: Horary Astrology*), Sunil Gondhalekar.
+
+### 38.1 KP-249 Ascendant Determination
+Given Horary Number $N \in [1, 249]$, lookup table entry $N$ gives exact starting longitude $\lambda_0$, Star Lord, and Sub Lord.
+
+### 38.2 Four-Step Theory Chain
+1. **Step 1 (Planet)**: House(s) occupied and lorded by the planet.
+2. **Step 2 (Star Lord of Planet)**: House(s) occupied and lorded by the planet's star lord (Source).
+3. **Step 3 (Sub Lord of Planet)**: House(s) occupied and lorded by the planet's sub lord (Deciding factor).
+4. **Step 4 (Star Lord of Sub Lord)**: House(s) occupied and lorded by the sub lord's star lord (Confirmation).
+- *Event Judgment*: If Step 3/4 signify houses complementary to the target, the event is Fruitful. If Step 3/4 signify detrimental houses, the event is Negated.
+
+---
+
+## 39. Lal Kitab Advanced Engine (Nek/Manda, Metals & Upayas)
+
+Sources: *Lal Kitab 1952*, *Arun Sanhita*, B.M. Gosvami.
+
+### 39.1 Nek vs Manda Classification
+- **Nek (Benefic)**: Placed in Pakka Own/Exaltation house, or favorable houses without enemy aspect.
+- **Manda (Malefic/Depressed)**: Placed in Pakka Debilitation house, or boundary/dusthana houses ($6, 8, 12$).
+
+### 39.2 Dhaat (Metals) & Karakatwas
+- Sun = Gold/Copper, Moon = Silver, Mars = Copper/Brass, Mercury = Bronze, Jupiter = Gold/Brass, Venus = Silver/Platinum, Saturn = Iron, Rahu = Lead, Ketu = Two-metal alloy.
+
+---
+
+## 40. Classical Prediction Text Database Integration
+
+CSV-driven structured classical text lookup:
+- `Phaladesh.csv`: Planet-in-Rashi predictions across Divisional charts.
+- `Predictions-Planetwise.csv`: Detailed planetary house and sign descriptions.
+- `Predictions-Rashiwise.csv`: Ascendant sign personality and physiological profiles.
+- `Predictions.csv`: Topic-specific astrological aphorisms and predictions.
+
