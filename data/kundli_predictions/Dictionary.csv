@@ -1,0 +1,916 @@
+"HIN","ENG","ID"
+"/kus O;;s p ikrkys tkfe=s pk""Ves dqtsA
+dU;k HkrZqfouk'kk; HkrZq% dU;k fou';frAA",,MANGSH2
+"yXus O;;s prqFksZ p lIres ok v""Ves dqt%A
+HkrkZja uk'k;sn~ Hkk;kZ HkrkZHkk;kZ fouk';sr~AA",,MANGSH3
+"yXus O;;s p ikrkys tkfe=s pk""Ves dqtsA
+L=h.kka HkrqZ fouk'k% L;kr~ iqalka Hkk;kZ fou';frAA",,MANGSH4
+"yXus O;;s lq[ks okfi lIres ok v""Ves dqtsA
+'kqHk }x~ ;ksx ghus p ifra gfUr u la'k;e~AA",,MANGSH5
+"yXusnq 'kqØknq nq%Lfkkus ;|fLr f{kfr laHko%A
+rn~n'kkikd le;s nks""kekgqeZuhf""k.k%AA",,MANGSH6
+tUe yXu dqaMyh esa eaxy yXu ls ¼½ Hkko esa fLFkr gS rFkk panz dqaMyh esa eaxy ¼½ Hkko esa fLFkr gSA,"In the birth chart Mangal is placed in ¼½ house from Lagna, while in the Moon Chart, Mangal is placed in ¼½ house.",MANGPLACE
+"vr% bl dqaMyh esa ekaxfyd nks""k ughsa gSA","Hence, Manglik Dosha is not present in this Horoscope.",MANG0
+"vr% yXu dqMyh ds vuqlkj bl tUei=h esa ekaxfyd nks""k gSA","Hence according to Birth Chart, Manglik Dosha is present in this horoscope.",MANG10
+"vr% panz dqMyh ds vuqlkj bl tUei=h esa panz ekaxfyd nks""k gSA","Hence from the Moon Chart, Chandra Manglik dosha is present in this horoscope.",MANG01
+"vRk% yXu dqaMyh rFkk panz dqMayh nksuksa ls gh bl tUei=h esa ekaxfyd nks""k gSA","Hence, Manglik Dosha is present in this horoscope from the point of view of Birth Chart as well as Moon Chart.",MANG11
+izFke,First,house1
+f}rh;,Second,house2
+prqFkZ,Fourth,house4
+lIre,Seventh,house7
+"v""Ve",Eighth,house8
+}kn'k,Twelfth,house12
+r`rh;,Third,house3
+iape,Fifth,house5
+"""k""Be",Sixth,house6
+uoe~,Nineth,house9
+n'ke,Tenth,house10
+",dkn'k",Eleventh,house11
+"eaxy nks""k dks oSokfgd thou esa Ckk/kd ekuk tkrk gSA feFkdksa ds vuqlkj ekaxfyd nks""k dks oj] o/kw ds LokLF; rFkk vk;q ds fy;s gkfudkjd ekuk tkrk gSA",Mangal dosha is considered to create hurdles in the married life of a person. According to some myths mangal dosha results in frequent illness or untimely death of partner(s).,MANGINSTR1
+";g ekuk tkrk gS fd ;fn ekaxfyd O;fDr dk fookg ekaxfyd O;fDr ls gh gks rks ekaxfyd nks""k dk nq""izHkko lekIr gks tkrk gSA",It is considered that if a Manglik person marries another Manglik person then the Manglik Dosha getts cancelled and has no effects.,MANGINSTR2
+"/kus O;;s p ikrkys tkfe=s pk""Ves dqtsA
+Hkk;kZ HkrZq fouk'kk; HkrZq'p L=h fouk'kue~AA",,MANGSH1
+tUe le; ¼ekud½,Time of Birth (Standard),TOB
+ns'k@foHkkx,Time Zone/Country,TIME ZONE
+v{kka'k,Latitude,LATITUDE
+js[kka'k,Longitude,LONGITUDE
+LFkkfud le; laLdkj,Local Time Correction,LTC
+";q)@xzh""e le; laLdkj",War/Summer Time Corr.,WTC
+LFkkfud tUe le;,Local Birth Time,LOCAL TIME
+lkEikfrd dky,Siderial Time,SIDERIAL TIME
+lw;ksZn; ¼ekud½,Sun Rise (Standard),SUN RISE (STANDARD)
+lw;kZLr ¼ekud½,Sun Set (Standard),SUN SET (STANDARD)
+lw;ksZn; ¼LFkkfud½,Sun Rise (Local),SUN RISE (LOCAL)
+lw;kZLr ¼LFkkfud½,Sun Set (Local),SUN SET (LOCAL)
+frfFk,Tithi,TITHI
+i{k,Paksh,PAKSH
+'kkfyokgu 'kd~ lEor~,Shalivan Shak Samvat,SHALIVAN SHAK SAMVAT
+foØe lEor~,Vikram Samvat,VIKRAM SAMVAT
+;ksx,Yog,YOG
+v;uka'k,Ayanamsa,AYANAMSA
+lw;Z jkf'k ¼ik'pkR;½,Sun Sign (Sayan),SUN SIGN
+yXu&yXukf/kifr,Lagna-Lagna Lord,LAGNA-LAGNA LORD
+jkf'k&jkf'k Lokeh,Rashi-Rashi Lord,RASHI-RASHI LORD
+u{k=&pj.k,Nakshatra-Charan,NAKSHATRA-CHARAN
+u{k= Lokeh,Nakshatra Lord,NAKSHATRA LORD
+tUe LFkku,Birth Place,PLACE
+ekud js[kka'k,Standard Longitude,STDLONGITUDE
+?kkr pØ,GHAT CHAKRA,GHAT CHAKRA
+vodgM+k pØ,AVKAHDA CHAKRA,AVKAHDA CHAKRA
+izfrink,Pratipada,_PRATIPADA
+f}rh;k,Dvitiya,_Dvitiya
+r`fr;k,Tritiya,_TRITIYA
+prqFkhZ,Chaturthi,_Chaturthi
+iapeh,Panchami,_Panchami
+"""k""Bh",Shashthi,_Shashthi
+lIreh,Saptami,_Saptami
+"v""Veh",Ashtami,_ASHTAMI
+uoeh,Navami,_Navami
+n'keh,Dashmi,_Dashmi
+",dkn'kh",Ekadashi,_EKADASHI
+}kn'kh,Dwadashi,_DWADASHI
+=;ksn'kh,Trayodashi,_TRAYODASHI
+prqnZ'kh,Chaturdashi,_Chaturdashi
+"o`""k",Taurus,_VRISHA
+u{k=,Nakshatra,NAKSHATRA
+jk'kh,Rashi,RASHI
+xzg,Planet,PLANET
+va'k,Degrees,ANSH
+fn'kk,Dir.,DIR
+in,Pad,PAD
+Lokeh,Lord,LORD
+fuj;.k xzg,Nirayana Planetary,NIRYANABHAV
+"Li""V",Longitudes,SPASHT
+lk;u xzg,Sayan Planetary,SAYANBHAV
+laf/k,Position,SANDHI
+Hkko,Bhav,BHAV
+yXu,Asc.,_LAGNA
+lw;Z,Sun,_RAVI
+pUnz,Moon,_CHANDRA
+eaxy,Mars,_MANGAL
+cq/k,Mercury,_BUDHA
+xq:,Jupiter,_GURU
+'kqØ,Venus,_SHUKRA
+'kfu,Saturn,_SANI
+jkgq,Rahu,_RAHU
+dsrq,Ketu,_KETU
+;wjsul,Uranus,_URANUS
+usiV~;wu,Neptune,_NEPTUNE
+IywVks,Pluto,_PLUTO
+"o`""kHk",Taurus,_VRISHABH
+feFkqu,Gemini,_MITHUN
+ddZ,Cancer,_KARK
+flag,Leo,_SIMHA
+dU;k,Virgo,_KANYA
+rqyk,Libra,_TULA
+o`f'pd,Scorpio,_VRISCHIKA
+/kuq,Sagittarius,_DHANU
+edj,Capricorn,_MAKAR
+dqaHk,Aquarius,_KUMBH
+ehu,Pisces,_MEEN
+lka;,P.M.,_PM
+iwoZ,East,EAST
+if'pe,West,WEST
+mÙkj,North,NORTH
+nf{k.k,South,SOUTH
++$,+,_PLUS
+&,-,_DASH
+Þ,"""",_DEGREE
+¥¥,',_MINUTES
+"d`"".k",Krishna,_KRISHNA
+'kqDy,Shukla,_SHUKLA
+%,:,_COLON
+fdarq?u,Kintughna,_KISHTUGHNA
+ckyo,Balav,_BALAV
+rSfry,Taitil,_TAITIL
+ofut,Vanij,_VANIJ
+co,Bava,_BAVA
+dkSyo,Kaulav,_KAULAV
+xj,Gara,_GARA
+"fo""Vh",Vishti,_VISHTI
+"prq""in",Chatushpad,_CHATUSHPAD
+'kdqfu,Shakuni,_SHAKUNI
+ukx,Naag,_NAAG
+tuojh,January,_JANUARY
+Qjojh,February,_FEBRUARY
+ekpZ,March,_MARCH
+vizSy,April,_APRIL
+ebZ,May,_MAY
+twu,June,_JUNE
+tqykbZ,July,_JULY
+vxLr,August,_AUGUST
+flrEcj,September,_SEPTEMBER
+vDrwcj,October,_OCTOBER
+uoEcj,November,_NOVEMBER
+fnlEcj,December,_DECEMBER
+lkseokj,Monday,_MON
+eaxyokj,Tuesday,_TUE
+cq/kokj,Wednesday,_WED
+ohjokj,Thursday,_THU
+jfookj,Sunday,_SUN
+vf'ofu,Ashvini,_ASHVINI
+Hkj.kh,Bharni,_BHARNI
+d`frdk,Kritika,_KRITTIKA
+jksfg.kh,Rohini,_ROHINI
+e`x,Mrig,_MRIG
+vknzzkZ,Ardra,_AADRA
+iquoZlq,Punarvasu,_P_VASU
+"iq"";",Pushya,_PUSHYA
+"v'ys""kk",Ashlesha,_ASHLESHA
+ek?k,Magh,_MAAGH
+iwokZ QkYxquh,Purva Phalguni,_P_PHALGUNI
+mÙkjk QkYxquh,Uttara Phalguni,_U_PHALGUNI
+gLr,Hast,_HAST
+fp=k,Chitra,_CHITRA
+fo'kk[kk,Vishakha,_VISHAKHA
+vuqjk/kk,Anuradha,_ANURADHA
+"T;s""Bk",Jyeshtha,_JYESHTHA
+ewy,Moola,_MOOLA
+"iwoZ vk""kk<k",P. Ashadha,_P_ASHADHA
+"mÙkjk vk""kk<k",Uttara Ashadha,_U_ASHADHA
+Jo.k,Shravan,_SHRAVAN
+"/kfu""Bk",Dhanishtha,_DHANISHTHA
+iwokZ Hkknzin,Purva Bhadrapad,_P_BHADRA
+mÙkjk Hkknzin,Uttara Bhadrapad,_U_BHADRA
+jsorh,Revati,_REVATI
+"fo""kdqaHk",Vishkumbha,_VISKUMBH
+izhfr,Preeti,_PRITI
+"vk;q""eku",Ayushman,_AYUSHMAN
+lkSHkkX;,Saubhagya,_SAUBHAGYA
+'kksHku,Shobhan,_SOBHANA
+vfrxaM,Atiganda,_ATIGANDA
+lqdeZ,Sukarm,_SUKARMA
+/k`fr,Dhriti,_DHRITI
+'kwy,Shula,_SULA
+xaM,Gand,_GAND
+o`f),Vriddhi,_VRIDDHI
+/kzqo,Dhruv,_DHRUVA
+O;k?kkr,Vyaghata,_VYAGHATA
+"g""kZ.k",Harsana,_HARSANA
+otz,Vajra,_VAJRA
+flf),Siddhi,_SIDDHI
+O;frikr,Vyatipata,_VYATIPATA
+ofj;u,Variyan,_VARIYAN
+ifj?kk,Parigha,_PARIGHA
+f'kok,Shiva,_SIVA
+fl),Siddh,_SIDDHA
+lk/;,Sadhya,_SADHYA
+'kqHk,Shubha,_SUBHA
+czãk,Brahma,_BRAHMA
+banz,Indra,_INDRA
+oS/k`fr,Vaidhriti,_VAIDHRITI
+'kfuokj,Saturday,_SAT
+ekxhZ,Dir.,_DIR
+oØh,Ret.,_RET
+nso,Dev,_DEV
+"euq"";",Manushya,_MANUSHYA
+jk{kl,Raakshas,_RAKSHAS
+iwoZ,Purva,_PURVA
+e/;,Madhya,_MADHYA
+vUR;,Antya,_ANTYA
+mÙkj,Uttar,_UTTAR
+nf{k.k,Dakshin,_DAKSHIN
+clUr,Basant,_VASANT
+"xzh""e",Grishm,_GRISHMA
+"o""kkZ",Varsha,_VARSHA
+'kjn,Sharad,_SHARAD
+gseUr,Hemant,_HEMANT
+f'kf'kj,Shishir,_SHISHIR
+jk'kh,Rashi,_RASHI
+ekg,Month,_MONTH
+frfFk,Tithi,_TITHI
+okj,Day,_DAY
+Uk{k=,Nakshatra,_NAKSHATRA
+;ksx,Yoga,_YOGA
+dj.k,Karan,_KARAN
+izgj,Prahar,_PRAHAR
+L=h panz,Stri-Chandra,_STRI-CHANDRA
+o.kZ,Varna,_VARNA
+gald,Hansak,_HANSAK
+o';,Vashya,_VASHYA
+va'k,Degrees,_ANSH
+xt,Gaj,_GAJ
+"es""k",Aries,_MESH
+liZ,Sarp,_SARP
+Loku,Swan,_SWAN
+ektkZj,Maarjaar,_MARJAR
+mnj,Udar,_UUDAR
+xkS,Gau,_GAU
+"egh""k",Maheesh,_MAHEESH
+O;k?kz,Vyaghra,_VYAGHRA
+egh,Mahi,_MAHI
+O;k?k,Vyagh,_VYAGH
+okuj,Vaanar,_VAANAR
+udqy,Nakul,_NAKUL
+x#M+,Garud,_GARUD
+dkfrZd,Kaartik,_KAARTIK
+lqDeh,Sukmi,_SUKMI
+"vk""kk<+",Aashaadh,_AASHADH
+Lokfr,Swati,_SWATI
+"ikS""k",Paush,_POOSH
+Hkknzin,Bhadrapad,_BHADRAPAD
+'kwy,Shool,_SHOOL
+'kkr,Shaat,_SHAAT
+v'o,Ashva,_ASHVA
+lkou,Saavan,_SAAVAN
+okx,Vaag,_VAG
+oS'kk[k,Vaishakh,_VYSHAK
+O;FksBh,Vyatheti,_VYTHETI
+pS=,Chaitra,_CHAITRA
+QkYxqu,Phalgun,_PHALGUNI
+{kf=;,Kshatriya,_KSHATRIYA
+oS';,Vaishya,_VAISHYA
+'kwnz,Shudra,_SHUDRA
+czkg~e.k,Brahmin,_BRAHMIN
+vfXu,Agni,_AGNI
+Hkwfe,Bhoomi,_BHOOMI
+ok;q,Vaayu,_VAYU
+okfj,Vaari,_VAARI
+ekuo,Maanav,_MAANAV
+typj,Jalchar,_JALCHAR
+oupj,Vanchar,_VANCHAR
+dhV,Keet,_KEET
+"ekuo@prq""in",Maanav/Chat.,_MAANAV/CHAT
+"prq""in@typj",Chatushpad/Jalchar,_CHAT/JAL
+'kqØokj,Friday,_FRI
+pj.k,Charan,_CHARAN
+oxZ,Varg,_VARG
+v{kj,Akshar,_AKSHAR
+;ksfu,Yoni,_YONI
+x.k,Gana,_GANA
+;qat,Yunja,_YUNJA
+ukM+h,Nadi,_NADI
+v;u,Ayan,_AAYAN
+xksy,Goal,_GOOL
+_rq,Ritu,_RITU
+uoeka'k,Navamansha,_NAVAMSA
+Hkko pfyr,Bhaav Chalit,_BHAVACHALIT
+yXu dqaMyh,Lagna Chart,_LAGNAKUNDLI
+panz yXu,Moon Rasi,_MOONRASI
+Hkko,Cusps,_CUSPS
+cq/k,Mer,_BU
+lw;Z,Sun,_SU
+panz,Mon,_CH
+eaxy,Mar,_MA
+xq#,Jup,_GU
+'kqØ,Ven,_SH
+'kfu,Sat,_SA
+dsrq,Ketu,_KE
+jkgq,Rah,_RA
+uke,Name,NAME
+tUe frfFk,Date of Birth,DOB
+pw,Choo (Chooha),RL11
+ps,Che (Chetan),RL12
+pks,Cho (Choudhary),RL13
+yk,Laa (Laara),RL14
+e/;,Middle,MIDDLE
+vkjaHk,Begin,BEGIN
+lIroxZ ¼jk'kh esa½,Saptavarg Table (In Rasi),SAPTAVARG
+panz dqaMyh,Moon Rasi Chart,_CHANDRAKUNDLI
+YkXu,Asc,LAGNA
+lw;Z,Sun,RAVI
+panz,Mon,CHANDRA
+eaxy,Mar,MANGAL
+cq/k,Mer,BUDHA
+xq:,Jup,GURU
+'kqØ,Ven,SHUKRA
+'kfu,Sat,SANI
+jkgq,Rah,RAHU
+dsrq,Ket,KETU
+;wjs,Ura,URANUS
+usi,Nep,NEPTUNE
+Iyw,Plu,PLUTO
+"nzs""dks.k",Drekkana,DREKKANA
+lIreka'k,Saptmansh,SAPTHAMSA
+Ukoeka'k,Navmansa,NAVAMSA
+n'keka'k,Dashmansh,DASAMSA
+}kn'kka'k,Dwadashansh,DWADASAMSA
+"""kksMka'k",Shodansh,SHODASAMSA
+?kVh,Ghatis,GHATI
+ls,From,FROM
+rd,To,TO
+"o""kZ",Yrs.,YEARS
+foa'kksÙkjh n'kk,Vimsottari,VIMS
+"es""k",Mesh,S_MESH
+"o`""k",Vris,S_VRISHA
+feFkq,Mith,S_MITHUN
+ddZ,Kark,S_KARK
+flag,Simh,S_SIMHA
+dU;k,Kany,S_KANYA
+rqyk,Tula,S_TULA
+o`0,Vchk,S_VRISCHIKA
+/kuq,Dhan,S_DHANU
+edj,Makr,S_MAKAR
+dqaHk,Kumb,S_KUMBH
+ehu,Meen,S_MEEN
+"lokZ""VdoxZ lkfj.kh",Sarvashtakvarg Table,ASHTAK
+"f=dks.k 'kks/ku ds i'pkr~ v""VdoxZ",Ashtakvarg Table (After Trikon Reduction),TRIKON
+",dkf/kiR; 'kks/ku ds i'pkr~ v""VdoxZ lkfj.kh",Ashtakvarga Table (After Ekadhipatya Reductions),EKADH
+yh,Lee (Leena),RL21
+yw,Loo,RL22
+lkekU; LoHkko,General Characteristics,GENERAL
+"fufnZ""V fof'k""Vrk",Specific Characteristics,SPECIFIC
+vPNk,Good,GOOD
+lk/kkj.k,Fair,FAIR
+loksZÙke,Excellent,EXCELLENT
+laf{kIr,Limited,LIMITED
+ys,Le ,RL23
+yks,Lo (Lokesh),RL24
+v,A (Aparna),RL31
+b,E (Eesha),RL32
+oSKkfud fuokZg lk/ku%,Scientific Carriers:,SCIENTIFIC CARRIERS
+okf.kT; lacf/kr dk;ksZa ls fuokZg lk/ku%,Commerce:,COMMERCE
+'kks/;,Shodhya,SHODHYA
+dqy,Total,TOTAL
+fiaM,Pinda,PINDA
+"n`f""V ,oa xzg ;ksx",Aspects and Conjunction,DRISHTI
+m,Oo (Umesh),RL33
+",",A (Ekta),RL34
+vks,O (Om Prakash),RL41
+ok,Vaa (Vaageesh),RL42
+oh,Vee (Veena),RL43
+Okw,Woo,RL44
+os,Way (Vetan),RL51
+oks,Wo (Vohra),RL52
+d,Ka (Kamal),RL53
+dh,Kee (Keerti),RL54
+d~,Ka,RL61
+?k,Gha,RL62
+?k,Gha,RL63
+N,Chha,RL64
+ds,Ke,RL71
+dks,Ko (Komal),RL72
+gk,Haa,RL73
+gh,Hee,RL74
+gw,Hoo,RL81
+gs,Hey,RL82
+gks,Ho,RL83
+Mk,Da (Dalada),RL84
+Mh,Dee,RL91
+Mw,Doo,RL92
+Ms,Day,RL93
+Mks,Do,RL94
+ek,Maa,RL101
+eh,Mee,RL102
+ew,Moo,RL103
+es,Mey,RL104
+eks,Mo,RL111
+Vk,Taa,RL112
+Vh,Tee,RL113
+dYkk] lkekftd] x`g dk;kZfn ls fuokZg lk/ku%,"Arts, Social Work, Home Sciences etc.:",ARTS
+"'kkjhfjd fof'k""Vrk",Physical Characterstics,PHYSICAL
+"lEifÙk fof'k""Vrk",Wealth Characterstics,WEALTH
+mÙkjkf/kdkj laca/kh,Inheritance,INHERITENCE
+f'k{kk laca/kh,Education,EDUCATION
+fookg laca/kh,Marriage,MARRIAGE
+vkus okys thou ds volj,Career Oppurtunities,CAREER OPPORTUNITIES
+O;kikj ds volj,Business Oppurtunities,BUSINESS OPPORTUNITIES
+LokLF;,Health,HEALTH
+lkekftd,Social,SOCIAL
+'kqHk,Lucky,LUCKY
+;qfr,Conjunction,CONJUNCTION
+lsDlVkbZy,Sextile,SEXTILE
+VkbZu,Trine,TRINE
+lsehLDok;j,Semisquare,SEMISQUARE
+lslDok;j,Sesquare,SESQUARE
+LDok;j,Square,SQUARE
+viksftV,Opposite,OPPOSITE
+Qykns'k,General Predictions,GENERAL PREDICTIONS
+"xzg n`f""V fopkj",Aspects Considerations,ASPECT PREDICTIONS
+Vw,Too,RL114
+Vs,Te,RL121
+Vks,To,RL122
+ik,Paa,RL123
+ih,Pee,RL124
+iw,Poo,RL131
+/k,Dha,RL132
+.k,Ana,RL133
+B,Ttha,RL134
+is,Pe,RL141
+iks,Po,RL142
+jk,Ra,RL143
+jh,Ree,RL144
+:,Roo,RL151
+js,Re,RL152
+jks,Ro,RL153
+rk,Taa,RL154
+rh,Tee,RL161
+rw,Too,RL162
+rs,Te,RL163
+rks,To,RL164
+uk,Naa,RL171
+uh,Nee,RL172
+uw,Noo,RL173
+us,Ne,RL174
+uks,No,RL181
+;k,Yaa,RL182
+;h,Yee,RL183
+;w,Yoo,RL184
+;s,Ye,RL191
+;ks,Yo,RL192
+Hkk,Bhaa,RL193
+Hkh,Bhee,RL194
+Hkw,Bhoo,RL201
+/kk,Dhaa,RL202
+Qk,Pha,RL203
+<k,Dha,RL204
+Hks,Bhe,RL211
+Hkks,Bho,RL212
+tk,Jaa,RL213
+th,Jee,RL214
+[kh,Khee,RL221
+[kq,Khu,RL222
+[ks,Khe,RL223
+[kks,Kho,RL224
+xk,Gaa,RL231
+xh,Gee,RL232
+xw,Goo,RL233
+xs,Ge,RL234
+xks,Go,RL241
+lk,Saa,RL242
+lh,See,RL243
+lw,Soo,RL244
+ls,Se,RL251
+lks,So,RL252
+nk,Daa,RL253
+nh,Dee,RL254
+nw,Doo,RL261
+Fk,Tha,RL262
+>,Jha,RL263
+>,Jha,RL264
+ns,De,RL271
+nks,Do,RL272
+pk,Cha,RL273
+ph,Chee,RL274
+",u-lh-ykfgjh",N.C.Lahiri,NCLAHIRI
+ds-ih-,K.P.,KP
+ch-oh-je.k,B.V.Raman,BVRAMAN
+eqaFkk jkf'k%,Muntha is in the Sign No.:,MUNTHAIN
+"bl i`""B ij lHkh vkadM+ksa ls lacaf/kr o""kZ%",All values on this page are related to the year:,varshphaldeg
+"o""kZ yXu dqaMyh",Varsh Lagna Kundli,_VARSHKUNDLI
+xzg ls vki izHkkfor jgsaxsA,You will be under the Influence of Planet,INFLUENCEOF
+"o""kZ yXu dqaMyh esa]","In the Varsh Lagna Kundli, ",VARSHLAGNA
+esa fLFkr gSA,is in the house no.,INHOUSE
+vekoL;k,Amavasya,_AMAVASYA
+iwf.kZek,Purnima,_PURNIMA
+vk|,Aadh,_AADH
+vk|,Aadhya,_AADHYA
+vk|,Aadhya,_AADYA
+eS=,Maitra,_MAITRA
+foir,Vipat,_VIPAT
+rkjk@fnu,Tara/Din,TARA/DIN
+;ksfu,Yoni,Yoni
+xzg eS=h,Graha Maitri,GRAHA_MAITRI
+x.k,Gana,Gana
+HkdqV,Bhakut,Bhakut
+ukM+h,Nadi,Nadi
+xq.k,Points,GUNA
+"ijarq yXu dh fLFkfr ds dkj.k eaxyhd nks""k lEkkIr gks x;k gSA",But manglik dosh has been cancelled due to the location of Lagna.,_mangcancellagna
+"ijarq eaxy dh fLFkfr ds dkj.k ;g nks""k lEkkIr gks x;k gSA",But Manglik dosh has been cancelled due to the location of Mangal.,_mangcancelmangal
+"ijarq jk'kh o yXu dh fLFkfr ds dkj.k ;g nks""k lekIr gks x;k gSA",But due to Rashi and Position of Lagna manglik dosh has been cancelled.,_mangcancelrasilagna
+"yM+ds dh tUei=h esa eaxyhd nks""k gSA","According to the Boy's horoscope, he is manglik.",_onlyboymanglik
+"yM+dh dh tUei=h esa eaxyhd nks""k gSA","According to the Girl's horoscope, she is manglik.",_onlygirlmanglik
+" dh fLFkfr ds dkj.k eaxyhd nks""k lekIr Hkh gks x;k gSA", neutralize the affect of Manglik dosh.,_mangcancelplnt
+yM+dk o yM+dh nksuksa gh ekaxyhd gSaA,Both Boy and Girl are Manglik.,_bothmanglink
+yM+dk o yM+dh nksuksa gh ekaxyhd ugha gSaA,Both Boy and Girl are not Manglik.,_nomanglik
+"ekaxyhd nks""k ds dkj.k ;g feyku Bhd ugha gSA","Due to Manglik Dosh, Match is not Recommended at All.",_mangliknorec
+" v""VdwV xq.k feyrs gSaA", Points are obtained.,_howeverpoints
+"v""VdwV xq.k u feyus ds dkj.k feyku Bhd ugha gSA","Due to Lesser points, Match is not recommended.",_badpoints
+"ekaxyhd feyku o v""VdwV xq.k ds vuqlkj feyku lk/kkj.k gSA","According to Manglik Consideration and Compatibility points, match is just OK!",_goodpoints
+"ekaxyhd feyku o v""VdwV xq.k ds vuqlkj feyku mRre gSA","According to Manglik Consideration and Compatibility points, match is good!",_vgoodpoints
+"ekaxyhd feyku o v""VdwV xq.k ds vuqlkj feyku lokZsRre gSA","According to Manglik Consideration and Compatibility points, match is best!",_bestpoints
+dwV,Group,_KOOT
+yM+dk,Boy,_BOY
+yM+dh,Girl,_GIRL
+vf/kdre vad,Max.Points,_MAXPTS
+izkIr vad,Obtained,_OBTPTS
+"'krfHk""kk",Satabhisaj,_SATABHISAJ
+jk'kh,Rashi,DIVRASHI
+gksjk,Hora,DIVHORA
+"nzs""dks.k",Drekkana,DIVDREKKANA
+prqZFkka'k,Chaturthamsa,DIVCHATURTHAMSA
+lIrka'k,Saptamsa,DIVSAPTAMSA
+uoeka'k,Navamsa,DIVNAVAMSA
+n'keka'k,Dasamsa,DIVDASAMSA
+}kn'kka'k,Dwadasamsa,DIVDWADASAMSA
+"""kksM'kka'k",Shodasamsa,DIVSHODASAMSA
+fo'kak'k,Vimsamsa,DIVVIMSAMSA
+prqZfo'kka'k,Chaturvimsamsa,DIVCHATURVIMSAMSA
+lIrfo'kka'k,Saptavisamsa,DIVBHAMSA
+f='kka'k,Trisamsa,DIVTHRISAMSA
+[kosnka'k,Khavedamsa,DIVKHAVEDAMSA
+v{kosnka'k,Akshavedamsa,DIVAKSHAVEDAMSA
+"""k""V~;a'k",Shatyamsa,DIVSHATYAMSA
+"""kksM'koxZ lkfj.kh",Shodashvarga Table,SHODASHVARGA
+eS=h,Maitri,MAITRI
+uSlfxZd,Naisargik,NAISARGIK
+rkRdkfyd,Tatkalik,TATKALIK
+iap/kk,Panchadha,Panchdha
+fe=,Mitra,MITRA
+'k=q,Shatru,SHATRU
+le,Sam,SAM
+vfrfe=,Ati-Mitra,ATI-MITRA
+vfr'k=q,Ati-Shatru,ATI-SHATRU
+vkRedkjd,Atmakaraka,ATMAKARAKA
+vekR;dkjd,Amatyakaraka,AMATYAKARAKA
+Hkzkr`dkjd,Bhratrikarka,BHRATRIKARAKA
+ekr`dkjd,Matrikaraka,MATRIKARAKA
+iq=dkjd,Putrakaraka,PUTRAKARAKA
+tkfrdkjd,Gnatikaraka,Gnatikaraka
+njdkjd,Darakaraka,Darakaraka
+dkjd,Karkas,KARKA
+tSfeuh,Gemini,GEMINI
+pj n'kk,Chara Dasa,CHARA DASHA
+eaxyk,Mangla,MANGLA
+fiaxyk,Pingla,Pingla
+/kkU;k,Dhanya,DHANYA
+Hkzkejh,Bhramari,BHRAMARI
+Hkfnzdk,Bhadrika,BHADRIKA
+mYdk,Ulka,Ulka
+fl)k,Sidhdha,Sidha
+ladVk,Sankata,Sankata
+;ksfxuh n'kk,Yogini Dasa,Yogini Dasha
+lw;ksZn;,Sun Rise,SUNRISE
+lw;kZLr,Sun Set,SUNSET
+ekud,Standard,STANDARD
+n'koxZ,Dashvarga,DASAVARGA
+egk,Major,MAHA
+varj,Sub,ANTAR
+izR;arj n'kk,Sub-Sub (Pratyantar),PRATYANTAR
+n'kk,Period,DASA
+fnu,Days,DAYS
+n'kk dk HkksX;dky,Balance of Dasa,BHOGYA
+,Local,LOCAL
+"nks""k",Dosha,Dosha
+fopkj,Consideration,CONSIDERATION
+lkfj.kh,Chart,CHART
+esykid,Match,MATCH
+vkSj,And,AND
+ekaxfyd,Manglik,MANGLIK
+Øe,Serial,Serial
+fLFkfr,State,State
+vLr,Debilited,DEBILITED
+mfnr,Exalted,EXALTED
+fuj;.k,Nirayana,_NIRAYANA
+pfyr,Chalit,_CHALIT
+tUedkyhu foa'kksÙkjh egkn'kk%,Vimsottari Mahadasa At Birth:,DASAATBIRTH
+"'ks""k",Balance,BALANCE
+"jkgq o dsrq ds Li""V eku fn;s x;s gSaA",Positions of Rahu and Ketu are True.,TRUERAHUKETU
+jkgq o dsrq ds eku dsUnz ds vuqlkj fn;s x;s gSaA,Mean Positions of Rahu and Ketu are given here.,MEANRAHUKETU
+dkjdka'k %,Karakamsha :,KARAKAMSHA
+tUe,Janma,TARA1
+lEir,Sampat,TARA2
+foir,Vipat,TARA3
+{kse,Kshema,TARA4
+izR;fj,Pratyari,TARA5
+lk/kd,Sadhaka,TARA6
+o/k,Vadha,TARA7
+fe=,Mitra,TARA8
+vfrfe=,Ati-Mitra,TARA9
+rkjk pØ,Tara Chakra,TARACHAKRA
+"b""Vdky",Ishta-Kala,ISHTAKALA
+"iq:""k",Male,Male
+L=h,Female,Female
+fyax,Sex,Sex
+ik;k ¼jk'kh½,Paya (Rashi),Paya
+rkez,Copper,Copper
+Lo.kZ,Gold,Gold
+pkanh,Silver,Silver
+ykSg,Iron,Iron
+nknk dk uke,Grand Father's Name,GrandFather
+firk dk uke,Father's Name,Father
+ekrk dk uke,Mother's Name,Mother
+tkfr,Caste,Caste
+xks=,Gotra,Gotra
+irk,Address,Address
+AA tUe fooj.kAA,-=[ Birth Details ]=-,Birth Details
+AA iapkaxAA,-=[ Epheries (Panchang) ]=-,Panchang
+AA ikfjokfjd ifjp;AA,-=[ Family Introduction ]=-,Family
+egkn'kk,Main Period (Mahadasa),Mahadasa
+varjn'kk,Sub Periods (Antardasa),Antardasa
+lkekU; LoHkko,Character,Character
+lq[k lk/ku vkfn,Happiness & Fulfilment,HAPPINESS
+jgu lgu,Life Style,LIFESTYLE
+thou p;kZ,Career,CAREER
+O;olk;,Occupation,OCCUPATION
+'kkSd,Hobbies,Hobbies
+izse izlax,Love Matters,LOVE MATTERS
+foÙk fopkj,Finance,FINANCE
+vxLR; lafgrk ds vuqlkj,According to Agastya Samhita,MANG1
+ekulkxjh ds vuqlkj,According to Maansagari,MANG2
+"c`gr~ T;kfr""kklkj ds vuqlkj",According to Brihat Jyotishasara,MANG3
+Hkko nhfidk ds vuqlkj,According to Bhava Deepika,MANG4
+c`gr~ ikjk'kj gksjk ds vuqlkj,According to Brihat Parashara Hora,MANG5
+";fn yXu dqaMyh esa eaxy igys] f}rh;] prqFkZ] lIre] v""Ve vFkok }kn'k Hkko esa gks rks ekaxfyd nks""k gksrk gSA","If Mangal is placed in first, second, fourth, seventh, eighth or twelfth house in ""Lagna Kundli"" then Manglik Dosha is present in the horoscope.",MANG6
+"izkphu 'kkL=ksa ds vuqlkj ekaxfyd nks""k dk fopkj yXu ds vfrfjDr panzek] 'kqØ rFkk lIre Hkko ds Lokeh ls Hkh djuk pkfg;sA","According to some ancient scriptures, Manglik Dosha should also be considered from Moon, Venus and Seventh Lord as well as from Lagna.",MANG7
+"lkekU;r;k% ekaxfyd nks""k dk fopkj dsoy yXu o panz ls gh fd;k tkrk gS rFkk f}rh; Hkko lss fopkj ugha fd;k tkrkA",Generally Manglik Dosha is considered only from the position of Lagna and the Moon in birth chart and is not considered from the second house.,MANG8
+ekf.kd,Ruby,GEM11
+Ekkssrh,Pearl,GEM12
+ewaxk,Coral,GEM13
+iUuk,Emerald,GEM14
+iq[kjkt,Yellow Sapphire,GEM15
+ghjk,Diamond,GEM16
+uhye,Blue Sapphire,GEM17
+xksesn,Gomed,GEM18
+yglqfu;k,Cat's eye,GEM19
+lw;Z,Sun,GEM21
+pUnz,Moon,GEM22
+eaxy,Mars,GEM23
+cq/k,Mercury,GEM24
+c`gLifr,Jupiter,GEM25
+'kqØ,Venus,GEM26
+'kfu,Saturn,GEM27
+jkgq,Rahu,GEM28
+dsrw,Ketu,GEM29
+3 jÙkh,3 Ratti,GEM31
+3 jÙkh,3 Ratti,GEM32
+6 jÙkh,6 Ratti,GEM33
+4 jÙkh,4 Ratti,GEM34
+4 jÙkh,4 Ratti,GEM35
+1@4 jÙkh,1/4 Ratti,GEM36
+4 jÙkh,4 Ratti,GEM37
+5 jÙkh,5 Ratti,GEM38
+6 jÙkh,6 Ratti,GEM39
+lksuk,Gold,GEM41
+pk¡nh,Silver,GEM42
+pk¡nh,Silver,GEM43
+lksuk,Gold,GEM44
+lksuk,Gold,GEM45
+IysfVue,Platinum,GEM46
+iap/kkrq,Panchdhatu,GEM47
+"v""V/kkrq",Ashtadhatu,GEM48
+pk¡nh,Silver,GEM49
+vukfedk,Ring Finger,GEM51
+"dfuf""Bdk",Kanishthika,GEM52
+vukfedk,Ring Finger,GEM53
+"dfuf""Bdk",Little Finger,GEM54
+rtZuh,Index Finger,GEM55
+"dfuf""Bdk",Little Finger,GEM56
+e/;ek,Middle,GEM57
+e/;ek,Middle,GEM58
+vukfedk,Ring Finger,GEM59
+jfo,Sunday,GEM61
+lkse,Monday,GEM62
+eaxy,Tuesday,GEM63
+cq/k,Wednesday,GEM64
+xq:,Thursday,GEM65
+'kqØ,Friday,GEM66
+'kfu,Saturday,GEM67
+'kfu,Saturday,GEM68
+xq:,Friday,GEM69
+izkr%,Morning,GEM71
+izkr%,Morning,GEM72
+izkr%,Morning,GEM73
+izkr%,Morning,GEM74
+izkr%,Morning,GEM75
+izkr%,Morning,GEM76
+la/;k,Before Sunset,GEM77
+lw;kZLr,After Sunset,GEM78
+lw;kZLr,After Sunset,GEM79
+"d`frdk] m Qk] m ""kk","Krittika, U Phalguni, Uttarsadha",GEM81
+jksfg.kh] gLr] Jo.k,"Rohini, Hasta, Sravana",GEM82
+"e`xf'kjk] fp=k] /kfu""Bk","Mrigshira, Chitra, Dhanishtha",GEM83
+"vk""ys""kk] T;s""Bk] jsorh","Ashlesha, Jyeshtha, Revati",GEM84
+iquoZlq] fo'kk[kk] iw Hkknz,"Punarvasu, Vishakha, Purvabhadra",GEM85
+"Hkj.kh] iw Qk-] iw ""kk","Bharni, Purvaphalguni, Purvasadha",GEM86
+"iq"";] vuqjk/kk] m Hkknz","Pushya, Anuradha, Uttarbhadrapad",GEM87
+"vknzkZ] Lokfr] 'krfHk""kk","Adra, Swati, Shatbhisha",GEM88
+vf'ouh] ek?k] ewy,"Ashvini, Magha, Mool",GEM89
+¬ ?k`f.k% lw;kZ; ue%,,GEM91
+lksa lksek; ue%,,GEM92
+va vaxkjdk; ue%,,GEM93
+cqa cq/kk; ue%,,GEM94
+o`a c`gLiR;s ue%,,GEM95
+'kqa 'qkØk; ue%,,GEM96
+'ka 'kuS'pjk; ue%,,GEM97
+jka jkgos ue%,,GEM98
+dsa dsros ue%,,GEM99
+ghjk] uhye] xksesn,"Diamond, Blue Sapphire, Gomed",GEMA1
+xksesn,Gomed,GEMA2
+ghjk] xksesn] uhye,"Diamond, Blue Sapphire, Gomed",GEMA3
+&&&,---,GEMA4
+ghjk] uhye,"Diamond, Blue Sapphire",GEMA5
+ekf.kD;] ew¡xk] iq[kjkt,"Ruby, Coral, Yellow Sapphire",GEMA6
+ekf.kD;] ew¡xk] iq[kjkt,"Ruby, Coral, Yellow Sapphire",GEMA7
+ekf.kD;] ew¡xk] eksrh,"Ruby, Coral, Pearl",GEMA8
+&&&,---,GEMA9
+xsg¡w] xqM+] panu] yky oL=,"Wheat, Gur, Sandal, Red Cloth",GEMB1
+pkoy] phuh] pkanh] 'osr oL=,"Rice, Sugar, Silver, White Cloth",GEMB2
+xsgw¡] xqM+] rkack] yky oL=,"Wheat, Gur, Copper, Red Cloth",GEMB3
+ewax] dLrwjh] dkalk] gfjr oL=,"Moong, Kasturi, Kansa, Green Cloth",GEMB4
+pus dh nky] gYnh] ihyk oL=,"Chane Ki Daal, Tamarin, Yellow Cloth",GEMB5
+pkoy] pkanh] ?kh] 'osr oL=,"Rice, Silver, Ghee, White Cloth",GEMB6
+mM+n] dkys fry] rsy] dkys oL=,"Udad, Black Til, Oil, Black Cloth",GEMB7
+fry] rsy] dEcy] uhys oL=,"Til, Oil, Blanket, Blue Cloth",GEMB8
+lIr/kkU;] ukfj;y] /kwez oL=,"Saptdhanya, Coconut, Dhumra Cloth",GEMB9
+jRu,Gem Stone,GEM10
+xzg,Planet,GEM20
+Hkkj,Weight,GEM30
+/kkrq,Metal,GEM40
+vaxqyh,Finger,GEM50
+okj,Day,GEM60
+le;,Time,GEM70
+u{k=,Nakshatra,GEM80
+ea=,Vedic Hymn/ Mantra,GEM90
+"lkFk esa fu""ksf/kr jRu",Prohibited Gem in Combination,GEMA0
+nku inkFkZ,Charitable Goods,GEMB0
+thou jRu% /ku le`f)] LokLF; ykHk rFkk nq?kZVukvksa ls cpko ds fy;s,"Life Gem-Stone: For Money Matters, Health and safety from Accidents",GEMLife
+HkkX; jRu% lq[k] fo|k] HkkX;ksn;] 'kqHk ;k=kvksa esa o`f) rFkk [kpksZsa es deh,"Luck Gem-Stone: For Happiness, Education, Luck, Lucky Travels and reduction in expenditure",GEMFortune
+dkjd jRu% ijkØe] lUrfr lq[k ds fy;s,"Karak Gem-Stone: Influence, Family happiness etc.",GemKaraka
+jRu fopkj,Gem Stone Consideration,GEM
+"T;ksfr""k 'kkL= esa 'kqHkRo dh o`f) ds fy;s fofHkUUk mik; gSA jRuksa ds iz;ksx dks o.kZ mipkj ij vk/kkfjr ekuk tkrk gSA ;gka vkidh tUei=h ds vuqlkj vkids fy;s mi;qDr jRu fn;s x;s gSaA",Astrology is a science and remedial measures such as color therapy can be quite useful in one's life. Stone is considered to be a kind of color therapy only. Below we have provided a quick lookup of gem stones and the area for which they are useful.,GEMGEN
+"jRu dk Hkkj ikSus esa ugha gksuk pkfg;s rFkk jRu es dksbZ nkx o njkj ughs gksuh pkfg;sA jRu xzg.k djus ls igys mls dPps nw/k o 'kq) ty esa /kks ysuk pkfg;sA jRu fufnZ""V le; ij] xzg ds ea= dk de ls de ,d tki dj dj nka, gkFk esa /kkj.k djsaA","The weight of the stone must not be in 3/4th units and it should be clean and unbroken. Wash the gemstone in raw milk and pure water. Wear it in the right hand at the prescribed time of day, after reciting the given mantra atleast 108 times.",GEMGEN1
+HkkX;kad,Lucky No.,Lucky2
+fe= vad,Friendly Numbers,Lucky3
+'k=q vad,Evil Numbers,Lucky4
+"'kqHk o""kZ",Lucky Years,Lucky5
+'kqHk fnu,Lucky Days,Lucky6
+'kqHk xzg,Lucky Planets,Lucky7
+'kqHk jkf'k,Lucky Moon-Signs,Lucky8
+'kqHk yXu,Lucky Ascendents,Lucky9
+'kqHk jRu,Favourable Stone,Lucky10
+'kqHk mijRu,Alternate Favourable Stones,Lucky11
+HkkX; jRu,Lucky Stone,Lucky12
+'kqHk /kkrq,Favourable Metal,Lucky13
+'kqHk o.kZ ¼jax½,Lucky Color,lucky14
+'kqHk fn'kk,Lucky Direction,Lucky15
+'kqHk le;,Lucky Time,Lucky16
+nku inkFkZ,Charitable Goods,Lucky17
+firk dk uke,Father's Name,FathersName
+ekrk dk uke,Mother's Name,MothersName
+nknk dk uke,Grand Father's Name,GrandFathersName
+@,/,Slash
+foa'kksÙkjh n'kk ¼izR;arj½,Vimsottari Dasa (Pratyantar),PRATYA
+vkus okys thou ds volj,Carrier Oppurtunities,CARRIER OPPORTUNITIES
+lw;kZsn;@lw;kZzzLr ¼LFkkfud½,Sunrise/Sunset (Local),SRSSL
+lw;kZsn;@lw;kZzzLr ¼ekud½,Sunrise/Sunset (Standard),SRSSS
+frfFk@i{k@ekg,Tithi/Paksh/Month,TithiPaksh
+,,sade1
+,,sade2
+,,sade3
+dqaMyh,Chart,Kundli
+"d`"".kewfÙkZ i)fr",Krishnamurti Paddhati,_KP
+jk'kh Lok-,Ras.Lord,_RL
+u{k= Lok-,Nak.Lord,_NL
+u{k= mi-,SubLord,_SL
+lk<+s lkrh,Sade Sati,SadeSati
+lksuk,Gold,
+pkanh,Silver,
+rkack,Copper,
+yksgk,Iron,
+ik;k,Paya,
+jk'kh ik;k,Rashi Paya,Rashipaya
+u{k= ik;k,Naksh. Paya,Nakshatrapaya
+pS=,CHAITRA,CHAITRA
+oS'kk[k,VAISAKHA,VAISAKHA
+"T;s""B",JYAISTHA,JYAISTHA
+"vk""kk<+",ASADHA,ASADHA
+Jko.k,SRAVANA,SRAVANA
+Hkknz,BHADRA,BHADRA
+vkf'ou,ASVINA,ASVINA
+dkfrZd,KARTIKA,KARTIKA
+"ekxZ'kh""kZ",AGRAHAYANA,AGRAHAYANA
+"ikS""k",PAUSA,PAUSA
+ek?k,MAGHA,MAGHA
+iQkYxqu,PHALGUNA,PHALGUNA
+jkf'k & jkf'k Lokfe,Rashi - Rashi Lord,av1
+u{k= & pj.k,Nak - Naklord,av2
+u{k= Lokfe,Nakshatra Lord,av3
+;ksx,Yog,av4
+dj.k,Karan,av5
+x.k,Gana,av6
+;ksfu,Yoni,av7
+ukM+h,Nadi,av8
+o.kZ,Varna,av9
+o';,Vashya,av10
+oxZ,Varga,av11
+;qatk,Yunja,av12
+gald,Hansak,av13
+tUe ukek{kj,Akshar,av14
+ik;k¼jkf'k & u{k=½,Paya(Rashi - Naks),av15
+lw;Z jkf'k¼ik'pkR;½,Sun Rashi(Pashchatya),av16
+v;u,Ayan,av17
+xksy,Goal,av18
+_rq,Ritu,av19
+ekl,Mas,gh1
+frfFk,Tithi,gh2
+fnu,Day,gh3
+u{k=,Nakshatra,gh4
+;ksx,Yog,gh5
+dj.k,Karan,gh6
+izgj,Prahar,gh7
+oxZ,Varga,gh8
+yXu,Lagna,gh9
+lw;Z,Sun,gh10
+pUn,Moon,gh11
+eaxy,Mars,gh12
+cq/k,Mercury,gh13
+xq#,Jupiter,gh14
+'kqØ,Venus,gh15
+'kfu,Saturn,gh16
+jkgq,Rahu,gh17
+fnueku ¼LFkkfud½,Dinmaan (Local),dinmaanl
+fnueku ¼ekud½,Dinmaan (Standard),dinmaans
+lw;Z ds va'k,Longitude of Sun,sunansh
+yXu ds va'k,Longitude of Lagna,ascansh
+Hk;kr,Bhayat,Bhayat
+HkHkksx,Bhabhog,Bhabhog
+ekLk,Mas,Mas
+"bZ""V",Isht,isht
+tUe le; ij mfnr frfFk,Tithi at Birth,jtithi
+osykUrj,Velantar,Velantar
+&,-,-
+$,+,+
+lw;ksZn; dkyhu frfFk,Tithi at Sunrise,Stithi
+frfFk lekfIr dky,Tithi Ending Time,etithi
+lw;ksZn; dkyhu u{k=,Nakshatra at Sunrise,Snak
+u{k= lekfIr dky,Nakshatra Ending Time,Enak
+lw;ksZn; dkyhu ;ksx,Yoga at Sunrise,Syog
+;ksx lekfIr dky,Yoga Ending Time,Eyog
+lw;ksZn; dkyhu dj.k,Karan at Sunrise,Skaran
+dj.k lekfIr dky,Karan Ending Time,Ekaran
+dj.k,Karan,karan
+otz,Vajra,Vajra
+ukx,Nag,Nag
+co,BAVA,BAVA
+dkSyo,KAULAV,KAULAV
+xj,GAR,GAR
+rSfry,TAITIL,TAITIL
+'kdqfu,SHAKUNI,SHAKUNI
+fdaLrq?u,KINSTUGHNA,KINSTUGHNA
+"prq""ikn",CHATUSHPAD,CHATUSHPAD
+ofut,Vanij,Vanij
+"fo""Vh",Vishti,Vishti
+ckyo,Balava,Balava
+u{k=,Nakshatra at Birth,NAKSHATRAb
+;ksx,Yoga at Birth,YOGb
+dj.k,Karan at Birth,karanb
+iwf.kZek,Purnima,Purnima
+panz ds va'k,Longitude of Moon,mooansh
+lw;ksZn; dkyhu lw;Z,Sun at Sunrise,sunanshRise
+tUe dkyhu lw;Z,Sun at Birth,sunanshBirth
+tUe dkyhu panz,Moon at Birth,mooanshBirth
+lw;ksZn; dkyhu panz,Moon at Sunrise,mooanshRise
+vekoL;k,Amavasya,AMAVASYA
+"ekxZ'kh""kZ",MARGSHIRSH,MARGSHIRSH
+foa'kksÙkjh,Vimsottari,vVimsottari
+izR;arj,Pratyantar,vPRATYANTAR
+n'kk,dasa,vDasha
+varj,Antar,vAntar
+lw{e,Sooksham,vSooksham
+o,&,va
+egk,Maha,vMAHA
+HkksX;,Bhogya,vBHOGYA
+",l-ih-,l-",SPS,vSPS
+yXue~,Lagnam,vLagnam
+vkfnR;,Aaditya,vAaditya
+yXu,Lagna,vLagna
+lw;Z,Surya,vSurya
+u-Lok-,N.L.,NL
+jk-Lok-,R.L.,RL
+mi-,S.L.,SL
+vLr,COM,_COM
+mi-mi-,SSL,SSL
+tUe le; ij mfnr ;ksx,Yog at Birth,bdyoga
+tUe le; ij mfnr dj.k,Karan at Birth,bdkaran
+tUe le; ij mfnr u{k=,Nakshatra at Birth,bdnak
